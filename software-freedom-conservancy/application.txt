@@ -133,6 +133,8 @@ Community:
 
 *** Please give us the main link to the projects primary website.
 
+https://nixos.org
+
 *** Please give us a URL to a code repository we can clone and/or
     checkout.
 
