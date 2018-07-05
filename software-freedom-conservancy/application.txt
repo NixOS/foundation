@@ -230,6 +230,8 @@ No.
     proceedings or received a letter accusing your project of patent,
     copyright, trademark or other types of infringement?
 
+No.
+
 *** Please give a brief history of the project, focusing on how the
     community developed and the general health of the community.  Be sure
     to include information on any forks or other disputes that have
