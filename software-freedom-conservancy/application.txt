@@ -366,6 +366,16 @@ and served 45TB of data.
     for more than five years, you need only to list such inactive
     contributors if they made substantial contributions.
 
+Please clone the nixpkgs repository and run git shortlog -s -n -e.
+
+Key individuals:
+
+ - Eelco Dolstra, edolstra@gmail.com, Tweag.io. Previously: LogicBlox
+ - !!!
+
+!!! Enumerate all release maintainers.
+
+
 *** Please include any other pertinent information not given above that
     you feel we should review with your application.
 
