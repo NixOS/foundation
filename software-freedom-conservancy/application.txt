@@ -251,7 +251,7 @@ The biggest "fork" is Guix, which arose from a contingent of the
 community wanting a more GNU-flavored approach to package management,
 with the same theoretical underpinning, but with a different front-end
 language and a different policy for software inclusion (strongly
-preferring or even requiring copyleft software). The guix project is
+preferring or even requiring copyleft software). The Guix project is
 still small but doing quite well under the GNU umbrella.
 
 A more recent small fork called Triton arose when two members of the
