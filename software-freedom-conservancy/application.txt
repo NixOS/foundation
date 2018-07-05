@@ -278,6 +278,9 @@ been distributed.
     services of the software for users) to your user base?  If so, how do
     you structure (or seek to structure) this work?
 
+No, however some members of the community offer consulting through
+their own businesses and we do link to them from the website.
+
 *** Is anyone in the project currently offering a Software as a Service
     system based on project?  If so, how is that offering governed,
     coordinated and is the software that runs the service made fully
