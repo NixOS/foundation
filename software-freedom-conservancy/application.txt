@@ -339,6 +339,21 @@ Homebrew.
     lead you to believe your userbase is of a particular size (e.g., post
     counts to your user mailing list)?
 
+We merge about 1,000 pull requests each month, from about 300
+different people. We have about 2,500 stars and about 2,800 forks on
+GitHub. The main IRC channel stays above 800 people on a consistent
+basis.
+
+Some traffic stats from late 2018:
+
+https://nixos.org/~eelco/cache-stats/ips-per-month.png
+https://nixos.org/~eelco/cache-stats/requests-per-day.png
+https://nixos.org/~eelco/cache-stats/bytes-per-day.png
+
+In a recent month, we served 90,000,000 requests from our binary cache
+and served 45TB of data.
+
+
 *** Please list the names, email addresses, and affiliations (e.g.,
     employer) of key developers and major contributors.  Include both
     current and past contributors and developers.  Please include date
