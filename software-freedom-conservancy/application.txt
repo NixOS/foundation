@@ -138,6 +138,9 @@ https://nixos.org
 *** Please give us a URL to a code repository we can clone and/or
     checkout.
 
+ - https://github.com/NixOS/nix.git
+ - https://github.com/NixOS/nixpkgs.git
+
 *** Have you ever had funds held by the project, or by any individual on
     behalf of the project?  How and for what did you spend those funds?
     Are there funds remaining?  If so, who is holding them now?
