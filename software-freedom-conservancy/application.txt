@@ -286,6 +286,15 @@ their own businesses and we do link to them from the website.
     coordinated and is the software that runs the service made fully
     available to your users?
 
+Yes,
+
+ - chillcode.io
+ - ci.enlambda.com
+ - cachix.org
+
+among others. These aren't coordinated by the community and are
+independent companies.
+
 *** If your project runs on Linux-based systems, please list all the
     distributions that include your project, and what "repository area"
     the package appears in.  If you aren't packaged for any major
