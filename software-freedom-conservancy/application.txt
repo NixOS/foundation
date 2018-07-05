@@ -54,6 +54,30 @@ spend contributor time.
 
 *** Please give a detailed description of the project.
 
+NixOS is a Linux distribution based around the Nix build system.
+
+Most of the project's activity is around Nixpkgs, a package set that
+works both in NixOS but also Darwin and other Linux distributions. We
+also develop complementary tools:
+
+ - NixOps which allows easy deployment of NixOS onto various cloud
+   environments
+
+ - Hydra, a custom CI that is used to test and build the large number
+   of packages that we have.
+
+Organizationally, Eelco Dolstra is the creator of Nix and our BDFL.
+
+A Nix Core Team is established for shepherding the Nix project.
+
+Beyond that, an informal group of developers take on various
+responsibilities.
+
+In terms of infrastructure, we use GitHub to host the code at
+https://github.com/NixOS. We have a mix of dedicated and virtualised
+hardware for our build infrastructure and website, which is provided
+by various companies.
+
 *** What FLOSS License(s) does your project use?  Please include the
     primary license, and list other licenses for code that is included.
     (e.g., "The project as a whole is GPLv3-or-later, but about a dozen
