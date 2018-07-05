@@ -6,11 +6,15 @@ over time.
 
 ## Current scope
 
-* Fund the Hydra build infrastructure
-* Fund the binary cache bandwidth
-* Hold the Internet domains and various other propreties
+* Maintain the core infrastructure (Hydra, binary cache, ...)
+* Pay for projects that improve the open source nixos ecosystem (security patching, a designer, etc.) but not do private work
+* Hold various properties related to the project (Internet domains, ...)
 
-## Current board members
+## About the foundation
+
+The "Stiching NixOS Foundation" is a registered non-profit organisation at the Chamber of commerce (Kamer van Koophandel) in Utrecht, The Netherlands. The KvK number is 63520583. 
+
+### Current board members
 
 * Eelco Dolstra - Chairman
 * Armijn Hemel - Secretary
