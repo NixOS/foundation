@@ -44,6 +44,14 @@ Additionally, helping us manage the rapid growth of our community.
     pending with any other non-profit homes?  What do you see as the pros
     and cons of the various organizations you've applied to?
 
+We have talked with NLNet about being homed under them. They would be
+happy to do so, however their model makes it challenging to receive
+regular and smaller contributions.
+
+We also have run our own foundation, the NixOS Foundation, however it
+is not not-for-profit, and transparency reporting is not a nice way to
+spend contributor time.
+
 *** Please give a detailed description of the project.
 
 *** What FLOSS License(s) does your project use?  Please include the
