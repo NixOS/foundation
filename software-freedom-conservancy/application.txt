@@ -175,6 +175,21 @@ growing interest to in US companies providing sponsorship.
     take on your behalf?  Where geographically do you want those activities
     to take place?
 
+Infrastructure costs will probably remain a majority of the
+expenditures.
+
+Some possible new things to fund:
+
+ - certain types of development work as deemed necessary by the
+   community. For example, last year the community funded an effort to
+   remove legacy perl remnants from the Nix build tool.
+ - supporting a team to handle security patching, or other
+   community-wide projects
+ - designers
+ - conferences
+
+Geographically speaking, mostly in the EU and US.
+
 *** Is your project able and willing to participate in fundraising
     campaigns with Conservancy on an annual or perhaps more frequent
     basis?
