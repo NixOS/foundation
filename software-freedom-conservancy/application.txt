@@ -52,6 +52,8 @@ We also have run our own foundation, the NixOS Foundation, however it
 is not not-for-profit, and transparency reporting is not a nice way to
 spend contributor time.
 
+!!! Consider SPI and/or LF
+
 *** Please give a detailed description of the project.
 
 NixOS is a Linux distribution based around the Nix build system.
