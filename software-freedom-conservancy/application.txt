@@ -224,6 +224,8 @@ https://github.com/NixOS/nixos-homepage/blob/525ade227e23f2b54975021553eeb3c6b57
     holding a patent in any jurisdiction that are in any way related to
     your project?
 
+No.
+
 *** Has your project ever had legal trouble, been involved in legal
     proceedings or received a letter accusing your project of patent,
     copyright, trademark or other types of infringement?
