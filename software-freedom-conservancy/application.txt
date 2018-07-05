@@ -163,6 +163,13 @@ server.
     currently?  Where do you expect most of your donor base to be
     geographically?
 
+Our fundraising is fairly minimal, with a small amount of money coming
+in each month. You can see some information about that on
+https://nixos.org/nixos/foundation.html
+
+Most of our donor base is still probably in Europe, although there is
+growing interest to in US companies providing sponsorship.
+
 *** Going forward, once inside Conservancy, how do you expect to spend funds
     that you raise?  What types of activity do you want to ask Conservancy to
     take on your behalf?  Where geographically do you want those activities
