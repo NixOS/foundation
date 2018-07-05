@@ -203,6 +203,10 @@ No.
 *** Who currently holds your projects' trademarks, if any?  When was your
     projects' name first used, and who used it?
 
+There are no formal trademarks.
+
+The name was first used for the project by Eelco Dolstra in 2003.
+
 *** Does you project have a logo?  If so, who drew it, when did they draw
     it, where is it displayed and what is its license? 
 
