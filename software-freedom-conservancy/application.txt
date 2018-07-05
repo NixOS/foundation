@@ -317,6 +317,24 @@ Homebrew.
     affiliations and relationships, or potential affiliations that you
     plan to create should be included.
 
+ - Infor / LogicBlox provides extensive amounts of support for our
+   infrastructure on AWS, which includes a lot of our build capacity,
+   as well as our distribution mechanism (the "binary cache".) In
+   exchange they have a logo on our website:
+   https://nixos.org/nixos/community.html.
+ - Packet.net provides several build servers for NixOS, in exchange
+   for us creating, maintaining, and providing installation images for
+   their service.
+ - TUDelft hosts a few build servers for us, and in exchange has a
+   logo on our website (same as above.)
+ - Universiteit Utrtech does ... WHAT? ...  and in exchange has
+   a logo on our website (same as above.)
+ - !!! WHAT IS 3TU / 4TU?
+ - !!! LIST OF FUNDING GRANTS NIX HAS RECEIVED?
+ - !!! WHAT DOES SNABB DO FOR US?
+ - !!! MacStadium provides Macs, but I'm unclear on the relationship.
+ - !!! FILL THIS OUT MORE
+
 *** Approximately how many users does your project have, and what items
     lead you to believe your userbase is of a particular size (e.g., post
     counts to your user mailing list)?
