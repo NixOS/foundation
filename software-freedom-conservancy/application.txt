@@ -301,6 +301,14 @@ independent companies.
     distributions, please tell us why you believe your project hasn't been
     packaged yet.
 
+We choose not to make RPMs or DEBs because they inherently conflict
+with our distribution and packaging model. We think this question is
+more revealing for software which isn't a build tool and package
+manager.
+
+However, note, you can install Nix through the Arch Linux AUR and
+Homebrew.
+
 *** Does your project have any existing for-profit or non-profit
     affiliations, funding relationships, or other agreements between the
     project and/or key leaders of your project and other organizations?
