@@ -1,0 +1,173 @@
+Conservancy's Evaluation Committee meets monthly.  While I cannot
+guarantee your project will be evaluated in a specific month (the meeting
+lasts one hour and we push through as many application as we can), getting
+your application in by the end of any given month means that at least your
+project will be on the agenda for the following month's meeting.  You
+project will of course stay on the agenda until the Evaluation Committee
+gets to it.
+######################################################################
+The Software Freedom Conservancy encourages your project to apply for
+Conservancy.  Please be advised that applying doesn't guarantee your
+project can join Conservancy; it's simply the first step in the process
+of joining Conservancy.
+
+Please note that Conservancy currently has a long queue for project
+applications, so we cannot assure you when you will receive a response to
+your application.  Feel free to ping Conservancy at any time to inquire
+about the status of your application.
+
+To apply to the Conservancy, please answer fully all the questions below,
+in a *single* text-only (i.e., not HTML) email to
+<apply@sfconservancy.org>.  Please try to be as concise as possible while
+making sure to answer the questions fully.
+
+If the relevant information is already gathered and publicly available,
+it's ok to include URLs as answers.  However, if a given URL has lots of
+information on it, please make sure that you direct us specifically to
+the portions of the web page loaded by the given URL that are relevant in
+answering the question.
+
+Conservancy Application Questions:
+
+*** Why does your project want to join Conservancy?  Specifically, what
+    benefits do you expect to take advantage of immediately and within a
+    few years?
+
+*** Conservancy does encourage projects to apply to multiple non-profit
+    homes to find the best fit.  Does your project have an application
+    pending with any other non-profit homes?  What do you see as the pros
+    and cons of the various organizations you've applied to?
+
+*** Please give a detailed description of the project.
+
+*** What FLOSS License(s) does your project use?  Please include the
+    primary license, and list other licenses for code that is included.
+    (e.g., "The project as a whole is GPLv3-or-later, but about a dozen
+    files in the directory src/external/ are under the Apache-2.0
+    license").  Please be sure to include information on documentation
+    licensing as well as software licensing.
+
+*** Please give us your roadmap and plans for future development of the
+    project, including both code and community plans.
+
+*** Please give us the main link to the projects primary website.
+
+*** Please give us a URL to a code repository we can clone and/or
+    checkout.
+
+*** Have you ever had funds held by the project, or by any individual on
+    behalf of the project?  How and for what did you spend those funds?
+    Are there funds remaining?  If so, who is holding them now?
+
+*** Do you have any ongoing fundraising programs for your project?  How do
+    they operate, and how much funding is brought in through these mechanisms
+    currently?  Where do you expect most of your donor base to be
+    geographically?
+
+*** Going forward, once inside Conservancy, how do you expect to spend funds
+    that you raise?  What types of activity do you want to ask Conservancy to
+    take on your behalf?  Where geographically do you want those activities
+    to take place?
+
+*** Is your project able and willing to participate in fundraising
+    campaigns with Conservancy on an annual or perhaps more frequent
+    basis?
+
+*** Does your project owe funds to anyone?
+
+*** Who currently holds your projects' trademarks, if any?  When was your
+    projects' name first used, and who used it?
+
+*** Does you project have a logo?  If so, who drew it, when did they draw
+    it, where is it displayed and what is its license? 
+
+*** Are you aware of anyone in your project, individual or company,
+    holding a patent in any jurisdiction that are in any way related to
+    your project?
+
+*** Has your project ever had legal trouble, been involved in legal
+    proceedings or received a letter accusing your project of patent,
+    copyright, trademark or other types of infringement?
+
+*** Please give a brief history of the project, focusing on how the
+    community developed and the general health of the community.  Be sure
+    to include information on any forks or other disputes that have
+    occurred in the community.
+
+*** Please explain how your project is governed.  Who makes the decisions
+    in the project?  How do you resolve disputes, particularly about
+    non-code issues?
+
+*** Does your project currently offer, or wish to offer any consulting or
+    training services (such as deployment, administration or other such
+    services of the software for users) to your user base?  If so, how do
+    you structure (or seek to structure) this work?
+
+*** Is anyone in the project currently offering a Software as a Service
+    system based on project?  If so, how is that offering governed,
+    coordinated and is the software that runs the service made fully
+    available to your users?
+
+*** If your project runs on Linux-based systems, please list all the
+    distributions that include your project, and what "repository area"
+    the package appears in.  If you aren't packaged for any major
+    distributions, please tell us why you believe your project hasn't been
+    packaged yet.
+
+*** Does your project have any existing for-profit or non-profit
+    affiliations, funding relationships, or other agreements between the
+    project and/or key leaders of your project and other organizations?
+    Has the project had such affiliations in the past?  Please list of all
+    of them in detail and explain their nature. Even tangential
+    affiliations and relationships, or potential affiliations that you
+    plan to create should be included.
+
+*** Approximately how many users does your project have, and what items
+    lead you to believe your userbase is of a particular size (e.g., post
+    counts to your user mailing list)?
+
+*** Please list the names, email addresses, and affiliations (e.g.,
+    employer) of key developers and major contributors.  Include both
+    current and past contributors and developers.  Please include date
+    ranges of when those developers/contributors were active.
+
+    Please make this list as extensive and complete as possible.  You need
+    not include every last person who sent one patch, but please include
+    at least those who regularly sent patches or were/are regular
+    contributors.  If you project has contributors who have been inactive
+    for more than five years, you need only to list such inactive
+    contributors if they made substantial contributions.
+
+*** Please include any other pertinent information not given above that
+    you feel we should review with your application.
+
+Please note that your answers will be shared with Conservancy's Board of
+Directors, its Evaluation Committee (the membership of which is
+published on Conservancy's website), and with some of Conservancy's
+existing member projects leaders.  We like to get as much input as
+possible from Conservancy's existing project base when evaluating new
+projects for membership.
+
+Please submit the application in pure ASCII format, with paragraph fills
+and line breaks designed for 80 column viewing.  You don't need to
+impress us with formatting; what will actually impress us is if you make
+the information presented in a simple and clear way that is easily read
+and understood when edited with GNU Emacs and emailed around internally
+at Conservancy via standard email forwarding tools.
+
+Before completing your application, please be sure to read our
+application FAQ at: http://sfconservancy.org/members/apply/
+
+Feel free to include any additional information you'd like us to review
+in considering an application, but please try to be brief as possible.
+
+Please note that Conservancy does require that projects consider donating
+a percentage of their funding to the general operating costs of the
+Conservancy.  This is a way to assure we can continue providing a high
+level of service to all Conservancy projects.  We'll discuss this further
+and in detail after the evaluation process.
+
+Please be advised that you may get follow-up clarification questions on
+your application.  Please be prepared to respond to these inquiries
+quickly to assure timely processing of your application.
+######################################################################
