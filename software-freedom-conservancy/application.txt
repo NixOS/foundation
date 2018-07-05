@@ -262,6 +262,17 @@ active but hasn't grown much more developer capacity since the fork.
     in the project?  How do you resolve disputes, particularly about
     non-code issues?
 
+Eelco Dolstra serves as an overall BDFL, however responsibilities have
+been distributed.
+
+ - Nix the build tool has a Nix Core Team as documented in
+   https://github.com/NixOS/rfcs/blob/master/rfcs/0025-nix-core-team.md
+ - We have an RFC process at https://github.com/NixOS/rfcs/ which has
+   not historically worked very well, but after a summit in June 2018
+   is being revitalized through specific improvements.
+ - Most technical discussions occur either on GitHub tickets, the
+   mailing list, or RFCs.
+
 *** Does your project currently offer, or wish to offer any consulting or
     training services (such as deployment, administration or other such
     services of the software for users) to your user base?  If so, how do
