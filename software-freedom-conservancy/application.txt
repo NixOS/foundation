@@ -145,6 +145,19 @@ https://nixos.org
     behalf of the project?  How and for what did you spend those funds?
     Are there funds remaining?  If so, who is holding them now?
 
+Funds are currently held by the NixOS foundation, registered in the
+Netherlands: https://nixos.org/nixos/foundation.html
+
+They are primarily used to pay for Mac infrastructure costs, and some
+infrastructure which is not otherwise covered by a sponsor.
+
+Currently hydra.nixos.org is the community CI server and builds
+artifacts used by the majority of Nix and NixOS users. This is
+currently provided for free by a major NixOS-using company.
+
+We also have a substantial amount of donated hardware for the build
+server.
+
 *** Do you have any ongoing fundraising programs for your project?  How do
     they operate, and how much funding is brought in through these mechanisms
     currently?  Where do you expect most of your donor base to be
