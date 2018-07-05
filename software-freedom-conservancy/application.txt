@@ -97,6 +97,40 @@ by various companies.
 *** Please give us your roadmap and plans for future development of the
     project, including both code and community plans.
 
+Overall:
+
+ - Reduce the bus-factor of Eelco by creating an Infrastructure team
+ - Make our RFC process more effective
+
+Nix:
+
+ - Improving the usability and internal consistency of the tool, to be
+   easier to learn
+ - Improve the error messages and diagnostics
+
+Nixpkgs:
+
+ - Improve the organization of the security team, and reliably publish
+   advisories for patches
+ - Become a member of the embargoed openwall security distros list
+ - Become a strong, viable alternative to Homebrew on macOS
+ - Bring the usual determinism, security, and maintainability benefits
+   of Nix to a broader audience.
+ - Develop an active Documentation team for maintaining and reviewing
+   documentation across the Nix ecosystem.
+ - Appoint people to have roles and responsibilities to specific
+   subsections of the Nix ecosystem
+ - Empower package maintainers to more easily manage the packages they
+   maintain
+
+Community:
+ - Our last two NixCon conferences have been a great success, with
+   quite sizable growth. We plan on continuing to have yearly NixCon
+   events.
+
+ - Continue developing and fostering a diverse, friendly, and
+   welcoming community.
+
 *** Please give us the main link to the projects primary website.
 
 *** Please give us a URL to a code repository we can clone and/or
