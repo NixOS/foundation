@@ -237,6 +237,27 @@ No.
     to include information on any forks or other disputes that have
     occurred in the community.
 
+The Nix project was started by Eelco Dolstra in 2003/2004 as part of
+his Ph.D. work. For a few years following that, it had a small but
+enthusiastic following. It started gaining more attention in the past
+5 years as it started to gain support for large swaths of packages
+from the Haskell ecosystem (drawing in lots of Haskell users with
+similar tastes) and others.
+
+NixOS is originally by Armijn Hemel, as part of his MSc project in
+2007.
+
+The biggest "fork" is Guix, which arose from a contingent of the
+community wanting a more GNU-flavored approach to package management,
+with the same theoretical underpinning, but with a different front-end
+language and a different policy for software inclusion (strongly
+preferring or even requiring copyleft software). The guix project is
+still small but doing quite well under the GNU umbrella.
+
+A more recent small fork called Triton arose when two members of the
+community disagreed with how packaging should work. It's still very
+active but hasn't grown much more developer capacity since the fork.
+
 *** Please explain how your project is governed.  Who makes the decisions
     in the project?  How do you resolve disputes, particularly about
     non-code issues?
