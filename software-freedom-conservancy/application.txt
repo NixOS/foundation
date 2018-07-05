@@ -85,6 +85,15 @@ by various companies.
     license").  Please be sure to include information on documentation
     licensing as well as software licensing.
 
+ - Nix the build tool is released under LGPL 2.1
+ - Nixpkgs, the main package set used by the community (where most
+   user contributions occur, and also contains all NixOS code and
+   documentation) is under the MIT license
+ - Hydra, the shared CI server, is released under GPLv3
+ - NixOps, the infrastructure management tool, is released under LGPLv3
+ - Nix Pills, a standalone set of documentation, is licensed
+   CC-BY-SA-4.0
+
 *** Please give us your roadmap and plans for future development of the
     project, including both code and community plans.
 
