@@ -208,7 +208,17 @@ There are no formal trademarks.
 The name was first used for the project by Eelco Dolstra in 2003.
 
 *** Does you project have a logo?  If so, who drew it, when did they draw
-    it, where is it displayed and what is its license? 
+    it, where is it displayed and what is its license?
+
+Yes, it was created by Simon Frankau and updated by Tim Cuthbertson.
+
+It is displayed:
+
+ - https://nixos.org/
+ - https://github.com/nixos
+
+It is licensed Creative Commons Attribution 4.0 International License:
+https://github.com/NixOS/nixos-homepage/blob/525ade227e23f2b54975021553eeb3c6b57c04bd/logo/COPYING
 
 *** Are you aware of anyone in your project, individual or company,
     holding a patent in any jurisdiction that are in any way related to
