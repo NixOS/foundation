@@ -1,6 +1,6 @@
 # NixOS Foundation
 
-The NixOS Foundation's role is to suport the infrastructure and development of
+The NixOS Foundation's role is to support the infrastructure and development of
 the NixOS project as a whole. The exact nature and scope of this might vary
 over time.
 
