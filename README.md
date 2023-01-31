@@ -4,12 +4,6 @@ The NixOS Foundation's role is to support the infrastructure and development of
 the NixOS project as a whole. The exact nature and scope of this might vary
 over time.
 
-## Current scope
-
-* Maintain the core infrastructure (Hydra, binary cache, ...)
-* Pay for projects that improve the open source nixos ecosystem (security patching, a designer, etc.) but not do private work
-* Hold various properties related to the project (Internet domains, ...)
-
 ## About the foundation
 
 The "Stiching NixOS Foundation" is a registered non-profit organisation at the Chamber of commerce (Kamer van Koophandel) in Utrecht, The Netherlands. The KvK number is 63520583. 
@@ -33,7 +27,6 @@ voting powers.
 * Graham Christensen (@grahamc)
 * Jonas Chevalier (@zimbatm)
 
-
 ## Contact us
 
 In order to bring items to our attention, you have the following mechanisms
@@ -50,3 +43,55 @@ available:
 # Impressum
 
 [impressum](impressum.md)
+
+## High-level goals
+
+*Set the Nix community up for long term and scalable success.*
+
+- People infrastructure: The exponential growth trajectory of incoming users and contributors will begin to put strain on the current community structure via numerous channels (RFC’s, collaborations, questions, support, etc.).
+    - Make the project and community appealing and welcoming
+    - Strategic alignment and transparency across the community, especially NixOS foundation and committees/teams
+        - User-centric approach to development of core projects
+    - Clear and resilient leadership and governance structure
+- Technical infrastructure: Increased resilience (SPOF)
+    - Especially for hydra.nixos.org and cache.nixos.org
+- Active ecosystem: Make it so that Nix is solving people’s problems
+
+## Role of the Foundation
+
+*What should the Foundation do?*
+
+- Ensure the core needs of the ecosystem
+    - Represent Nix in the world
+    - Run the infrastructure
+        - GitHub
+        - Hydra
+        - Binary cache
+        - Website
+        - Discourse
+        - Matrix
+    - Security infrastructure
+    - Financial and legal support for the community
+        - Register and protect the trademark
+        - Handle donations
+        - Host and empowers the community teams
+- Support the growth and functioning of the community
+    - Support/organize major Nix events (NixCon, Summer of Nix, hackathons, …)
+    - Surveys
+    - Conflict resolution and moderation
+    - Community management
+        - Code of conduct
+        - Moderation
+    - Set the vision
+    - Create and maintain partnerships
+
+## Role of the board
+
+*Empower the community and stay out of the way*
+
+- Handle the administrative, legal and financial tasks of the Foundation
+- Organize the team structure and funding
+- Orchestrate a project-wide vision and roadmap
+- Unblock things that would be stuck otherwise
+    - Arbiter in case of conflicts
+    - Serve as a backup for critical tasks when needed
