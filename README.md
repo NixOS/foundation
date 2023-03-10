@@ -20,3 +20,7 @@ The "Stiching NixOS Foundation" is a registered non-profit organisation at the C
 * Armijn Hemel - Secretary
 * Rob Vermaas - Treasurer
 
+
+# Impressum
+
+[impressum](impressum.md)
