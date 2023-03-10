@@ -42,6 +42,9 @@ Personal information that is not relevant to the reader is redacted.
 
 ## Policies
 
+The NixOS Foundation adheres to the following policies:
+
+* [Conflict of Interest](policies/conflict_of_interest.md)
 * [Event Sponsorship Policy](./policies/sponsorship_policy.md)
 
 ## Contact us
@@ -60,3 +63,4 @@ available:
 # Impressum
 
 [impressum](impressum.md)
+
