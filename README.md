@@ -20,3 +20,16 @@ The "Stiching NixOS Foundation" is a registered non-profit organisation at the C
 * Armijn Hemel - Secretary
 * Rob Vermaas - Treasurer
 
+
+## Contact us
+
+In order to bring items to our attention, you have the following mechanisms
+available:
+
+* Talk to the individual members if you want to pick our brain. We try to make
+    ourselves available.
+* For private matters, please contact
+    [foundation@nixos.org](mailto:foundation@nixos.org).
+* If you need something to be done, please open [an
+    issue](https://github.com/NixOS/foundation/issues/new). New issues will be
+    reviewed during our Biweely meetings.
