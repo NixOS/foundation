@@ -45,4 +45,4 @@ available:
     [foundation@nixos.org](mailto:foundation@nixos.org).
 * If you need something to be done, please open [an
     issue](https://github.com/NixOS/foundation/issues/new). New issues will be
-    reviewed during our Biweely meetings.
+    reviewed during our Biweekly meetings.
