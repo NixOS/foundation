@@ -10,7 +10,7 @@ Hogeweide 346, 3544PW Utrecht, The Netherlands
 
 **KvK number:** 63520583
 
-**VAT ID:** NL TODO
+**VAT ID:** NL855271851B01
 
 ## Bank details
 
