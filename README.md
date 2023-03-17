@@ -59,7 +59,7 @@ available:
 
 ## Role of the Foundation
 
-*What should the Foundation do?*
+The foundation is the legal entity that backs the project from an organizational, material, and social point of view.
 
 - Ensure the core needs of the ecosystem
     - Represent Nix in the world
@@ -89,8 +89,13 @@ available:
 
 *Empower the community and stay out of the way*
 
+The role of the board is to support the day-to-day operations of the community, help to structure it, and serve as a last-resort backup when things go wrong.
+
 - Handle the administrative, legal and financial tasks of the Foundation
-- Organize the team structure and funding
+- Serve as an interface between the community and the corporate/governmental world
+    - Handle sponsoring and donations
+- Organize the team structure
+- Fund community events and efforts
 - Orchestrate a project-wide vision and roadmap
 - Unblock things that would be stuck otherwise
     - Arbiter in case of conflicts
