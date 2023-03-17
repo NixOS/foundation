@@ -46,3 +46,7 @@ available:
 * If you need something to be done, please open [an
     issue](https://github.com/NixOS/foundation/issues/new). New issues will be
     reviewed during our Biweekly meetings.
+
+# Impressum
+
+[impressum](impressum.md)
