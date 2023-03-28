@@ -6,11 +6,6 @@ This document outlines the policy of the NixOS Foundation (“NF”) regarding t
 
 “Nix” and the Nix logo is a registered trademark of the PSF.
 
-<aside>
-💡 The python policy also specifies “use trademarks” (which includes the logo which apparently isn’t registered). We might want to add some if needed
-
-</aside>
-
 All trademarks, even those that apply to open source software, must be used according to certain legal requirements. If these requirements are not met, the trademark may be endangered or lost. One of these requirements is for the trademark owner (in this case, the NF) to maintain standards for using its trademarks, and to enforce acceptable use of the trademarks by taking action against parties that violate those standards.
 
 Trademark law is mainly a way to protect the public, rather than the trademark holder. This means that uses of trademarks that confuse consumers – which in our case would include our developer and user community, or anyone else who might be likely to use the Nix package manager – are not permitted under law. As the owner of the trademark, we must be sure the mark is used properly, so the community is not confused. That is what we mean when we say that an unpoliced trademark may be endangered or lost. When the trademark no longer represents a certain level of quality to the community, or no longer indicates that we are the source of the products that bear the trademark, the trademark loses its value.
