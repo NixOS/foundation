@@ -4,7 +4,7 @@ Adapted from the [python trademark usage policy](https://www.python.org/psf/trad
 
 This document outlines the policy of the NixOS Foundation (“NF”) regarding the use of its trademarks. Any use of any NF trademark must be in accordance with this policy.
 
-“Nix” and the Nix logo is a registered trademark of the PSF.
+“Nix” and the Nix logo is a registered trademark of the NF.
 
 All trademarks, even those that apply to open source software, must be used according to certain legal requirements. If these requirements are not met, the trademark may be endangered or lost. One of these requirements is for the trademark owner (in this case, the NF) to maintain standards for using its trademarks, and to enforce acceptable use of the trademarks by taking action against parties that violate those standards.
 
@@ -56,7 +56,7 @@ We have specific rules for the following uses:
 
 1. Use of the word “Nix” in text, or as text in 3rd party logos and trademarks.
 2. Use of one of the NF-provided logo variants in *unaltered* form.
-3. Use of a logo *derived* from the Nix logos. For example, use of the intertwined snake graphic combined with different text, or with no text, or in combination with other graphic elements.
+3. Use of a logo *derived* from the Nix logos. For example, use of the Nix snowflake graphic combined with different text, or with no text, or in combination with other graphic elements.
 
 The following rules apply to the use of trademarks in each of these three classes.
 
@@ -68,7 +68,7 @@ The following rules apply to the use of trademarks in each of these three classe
 - Use of the word “Nix” in the names of user groups and conferences that are free to join or attend (Ex., “Dallas Nix Users Group”) – Allowed if for the Nix programming language. Other uses require permission.
 - Use of the word “Nix” in the name of books or publications like “Nix Journal” and “Nix Cookbook” – Allowed if for the Nix package manager.
 - Use of the word “Nix” on websites, brochures, documentation, and product packaging – Allowed if referring to the Nix package manager. Please follow the rules above about the use of the circle-R symbol.
-- Use of the word “Nix” in advertisements – Allowed in most cases by the nominative use rules described in the section “[Uses that Never Require Approval](https://www.python.org/psf/trademarks/#uses-that-never-require-approval)” above. Other uses in ads only with prior permission.
+- Use of the word “Nix” in advertisements – Allowed in most cases by the nominative use rules described in the section “[Uses that Never Require Approval](#uses-that-never-require-approval)” above. Other uses in ads only with prior permission.
 - Use of the word “Nix” in email and informally – Allowed without the circle-R symbol.
 - Use of the word “Nix” in academic papers, theses, and books – Allowed without the circle-R symbol. Books should include the symbol.
 - Use of the word “Nix” in another trademark – Not allowed without prior written permission from the NF, except as described above.
@@ -76,7 +76,7 @@ The following rules apply to the use of trademarks in each of these three classe
 ### Unaltered Logos
 
 - Use of unaltered NF-provided logos on T-shirts, mugs, etc. – Again, non-commercial uses to promote the Nix programming language are allowed. Commercial uses (which includes any use where you sell these items for money) require permission from NF. Please reproduce our logos with the right colours and fonts; if you need help, let us know.
-- Use of unaltered NF-provided logos on websites, brochures, and product packaging. The “snowflake” graphic alone is an unaltered version, whether or not accompanied by the words in NF-provided logos. Non-commercial uses to promote the Nix package manager are allowed, as are all nominative uses as described in the section “[Uses that Never Require Approval](https://www.python.org/psf/trademarks/#uses-that-never-require-approval)”. Any other commercial uses require prior written permission from NF.
+- Use of unaltered NF-provided logos on websites, brochures, and product packaging. The “snowflake” graphic alone is an unaltered version, whether or not accompanied by the words in NF-provided logos. Non-commercial uses to promote the Nix package manager are allowed, as are all nominative uses as described in the section “[Uses that Never Require Approval](#uses-that-never-require-approval)”. Any other commercial uses require prior written permission from NF.
 
 ### Derived Logos
 
@@ -85,6 +85,8 @@ The following rules apply to the use of trademarks in each of these three classe
 - Use of *derived* logos for user groups and conferences – Allowed if used to refer to the Nix package manager. Commercial user groups and for-profit conferences require permission from the NF.
 - Use of *derived* logos for freely distributed 3rd-party modules or tools – Allowed if for the Nix package manager. Use of *derived* logos for commercial modules and tools requires permission from the NF.
 - We recommend [contacting the NF](mailto:foundation@nixos.org) for permission for **all** *derived* logos to avoid placing a confusing logo into wide-spread use. Contacting us is not a requirement for the specific non-commercial uses listed above, or when using freely distributable *derived* logos that have already been approved by the NF. However, obtaining permission from the NF is required in all other uses of a *derived* logo.
+
+# Notes
 
 Commercial trademark uses that predate this policy (prior to June 2023) do not require permission from the NF if the use is consistent with this policy. However, if you think you may have used the NF trademarks in the past in ways that would violate this policy, we recommend seeking permission. Although we are not generally in the business of suing for past infringement of our trademarks, the NF does reserve the right to deny trademark use that violates this policy. Past use in violation of this policy does not confer a right to continue that use.
 
