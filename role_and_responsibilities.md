@@ -1,58 +1,45 @@
 # Roles and responsibilities of the Foundation and the Foundation board
 
-## High-level goals
-
-*Set the Nix community up for long term and scalable success.*
-
-- People infrastructure: The exponential growth trajectory of incoming users and contributors will begin to put strain on the current community structure via numerous channels (RFC’s, collaborations, questions, support, etc.).
-    - Make the project and community appealing and welcoming
-    - Strategic alignment and transparency across the community, especially NixOS foundation and committees/teams
-        - User-centric approach to development of core projects
-    - Clear and resilient leadership and governance structure
-- Technical infrastructure: Increased resilience (SPOF)
-    - Especially for hydra.nixos.org and cache.nixos.org
-- Active ecosystem: Make it so that Nix is solving people’s problems
-
 ## Role of the Foundation
 
 The foundation is the legal entity that backs the project from an organizational, material, and social point of view.
+Its goal is to set the Nix community up for long term and scalable success.
 
-- Ensure the core needs of the ecosystem
-    - Represent Nix in the world
-    - Run the infrastructure
-        - GitHub
-        - Hydra
-        - Binary cache
-        - Website
-        - Discourse
-        - Matrix
-    - Security infrastructure
-    - Financial and legal support for the community
-        - Register and protect the trademark
-        - Handle donations
-        - Host and empowers the community teams
+This means:
+
+- Ensure the core infrastructure of the ecosystem
+  - Provide the necessary technical infrastructure (GitHub, Hydra, Binary cache, etc..)
+  - Provide the necessary financial and legal support
+    - Register and protect the trademark
+    - Handle the funding of the community, by both accepting external funding and by redistributing it where needed
+  - Provide the necessary human infrastructure
+    - Host and empower the community teams
+    - Provide a conflict moderation and resolution path
+  - Ensure the necessary security infrastructure
+
 - Support the growth and functioning of the community
-    - Support/organize major Nix events (NixCon, Summer of Nix, hackathons, …)
-    - Surveys
-    - Conflict resolution and moderation
-    - Community management
-        - Code of conduct
-        - Moderation
-    - Set the vision
+  - Represent Nix in the world
     - Create and maintain partnerships
+    - Organize or support Nix events (NixCon, Summer of Nix, hackathons, …)
+  - Maintain the community in a healthy state
+    - Enforce some needed rules to keep the community an open and welcoming place (with or without a code of conduct)
+    - Run regular community surveys to take the pulse of the community and share back the results
+
+These responsibilities are carried out by the different teams that form the community (infrastructure team, security team, marketing team, community team, etc.).
 
 ## Role of the board
 
-*Empower the community and stay out of the way*
+_Empower the community and stay out of the way_
 
 The role of the board is to support the day-to-day operations of the community, help to structure it, and serve as a last-resort backup when things go wrong.
 
+In particular, its responsibilities are to:
+
 - Handle the administrative, legal and financial tasks of the Foundation
 - Serve as an interface between the community and the corporate/governmental world
-    - Handle sponsoring and donations
+  - Handle sponsoring and donations
 - Organize the team structure
 - Fund community events and efforts
-- Orchestrate a project-wide vision and roadmap
 - Unblock things that would be stuck otherwise
-    - Arbiter in case of conflicts
-    - Serve as a backup for critical tasks when needed
+  - Arbiter in case of conflicts
+  - Serve as a backup for critical tasks when needed
