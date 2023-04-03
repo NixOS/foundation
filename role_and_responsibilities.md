@@ -31,7 +31,7 @@ These responsibilities are carried out by the different teams that form the comm
 
 _Empower the community and stay out of the way_
 
-The role of the board is to support the day-to-day operations of the community, help to structure it, and serve as a last-resort backup when things go wrong.
+The role of the board is to provide operational and organizational support to the NixOS project and community.
 
 In particular, its responsibilities are to:
 
@@ -43,3 +43,5 @@ In particular, its responsibilities are to:
 - Unblock things that would be stuck otherwise
   - Arbiter in case of conflicts
   - Serve as a backup for critical tasks when needed
+
+The board is not responsible for technical leadership, decisions or direction.
