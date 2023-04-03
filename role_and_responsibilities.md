@@ -40,6 +40,7 @@ In particular, its responsibilities are to:
   - Handle sponsoring and donations
   - Build and maintain beneficial and collaborative relationships
 - Provide a framework for teams to self-organise
+  - Hand out the credentials and permissions as needed by the teams work
 - Fund community events and efforts
 - Unblock things that would be stuck otherwise
   - Arbiter in case of conflicts
