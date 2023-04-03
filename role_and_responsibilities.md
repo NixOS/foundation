@@ -2,7 +2,7 @@
 
 ## Role of the Foundation
 
-The foundation is the legal entity that backs the project from an organizational, material, and social point of view.
+The foundation is the legal entity that backs the project from an organizational, fiduciary, material, and social point of view.
 Its goal is to set the Nix community up for long term and scalable success.
 
 This means:
@@ -22,7 +22,7 @@ This means:
     - Create and maintain partnerships
     - Organize or support Nix events (NixCon, Summer of Nix, hackathons, …)
   - Maintain the community in a healthy state
-    - Enforce some needed rules to keep the community an open and welcoming place (with or without a code of conduct)
+    - Enforce some needed rules to keep the community an open and welcoming place
     - Run regular community surveys to take the pulse of the community and share back the results
 
 These responsibilities are carried out by the different teams that form the community (infrastructure team, security team, marketing team, community team, etc.).
@@ -38,7 +38,7 @@ In particular, its responsibilities are to:
 - Handle the administrative, legal and financial tasks of the Foundation
 - Serve as an interface between the community and the corporate/governmental world
   - Handle sponsoring and donations
-- Organize the team structure
+- Provide a framework for teams to self-organise
 - Fund community events and efforts
 - Unblock things that would be stuck otherwise
   - Arbiter in case of conflicts
