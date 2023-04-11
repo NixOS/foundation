@@ -1,0 +1,63 @@
+name: Nix Event Funding form
+description: Form to get new events funded!
+title: "[Funding]: $event name $date"
+labels: ["funding-request", "triage"]
+assignees:
+  - zimbatm
+body:
+  - type: markdown
+    attributes:
+      value: |
+        NixOS Foundation has a budget to help fund community events.
+
+        Fill in this form to get funding approved for your event.
+
+        Make sure to read <https://nixos.org/community/event-funding.html> before filling the form.
+  - type: input
+    id: event-name
+    attributes:
+      label: Event Name
+      description: Name of the Nix event
+    validations:
+      required: true
+  - type: input
+    id: event-website
+    attributes:
+      label: Event Website
+      description: Website with information about the event
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: event-purpose
+    attributes:
+      label: Event Purpose
+      description: What is the purpose of the event?
+    validations:
+      required: true
+  - type: input
+    id: event-visitors
+    attributes:
+      label: Event Visitors
+      description: What is the ~ expected number of visitors?
+    validations:
+      required: true
+  - type: input
+    id: event-organizer
+    attributes:
+      label: Event Organizer
+      description: Who is the main organizer of the event?
+    validations:
+      required: true
+  - type: input
+    id: budget-amount
+    attributes:
+      label: Budget amount
+      description: What is the budget you are seeking for (and what currency?)
+    validations:
+      required: true
+  - type: textarea
+    id: budget-description
+    attributes:
+      label: Budget description
+      description: What would the budget allow you to do?
