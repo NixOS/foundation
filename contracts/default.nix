@@ -195,7 +195,10 @@ rec {
         **${role}** will support the **Editorial Lead** in all aspects of this project pertaining to the Nix ecosystem and software development as needed.
       '';
       contributor-duties = { role }: ''
-        **${role}** will support the **Editorial Lead** with fulfilling assigned research, writing, or software development tasks as needed.
+        **${role}** will support the **Editorial Lead** by fulfilling assigned research, writing, or software development tasks as needed.
+      '';
+      volunteer-duties = { role }: ''
+        **${role}** will support the **Editorial Lead** by fulfilling assigned research, writing, or software development tasks as needed.
         **${role}** will commit 5 hours of effort per week within the project's time frame, on their own schedule.
       '';
       reporting-assistance = { role }: ''
@@ -207,20 +210,21 @@ rec {
       };
     };
 
-    roles = {
+    roles = let
+      documentation-definitions = with definitions; with documentation.definitions; [
+        nix
+        nixos-foundation
+        project
+        editorial-lead
+        nix-expert
+        contributor
+        project-organiser
+      ];
+      in {
       editorial-lead = { name, address, hours, rate }:
         let
           role = "Editorial Lead";
           compensation = { role }: terms.hours-and-rate { inherit role hours rate; };
-          documentation-definitions = with definitions; with documentation.definitions; [
-            nix
-            nixos-foundation
-            project
-            editorial-lead
-            nix-expert
-            contributor
-            project-organiser
-          ];
           role-terms = with terms; with documentation.terms; map (t: t { inherit role; }) [
             editorial-lead-duties
             time-frame
@@ -245,15 +249,6 @@ rec {
         let
           role = "Nix Expert";
           compensation = { role }: terms.hours-and-rate { inherit role hours rate; };
-          documentation-definitions = with definitions; with documentation.definitions; [
-            nix
-            nixos-foundation
-            project
-            editorial-lead
-            nix-expert
-            contributor
-            project-organiser
-          ];
           role-terms = with terms; with documentation.terms; map (t: t { inherit role; }) [
             nix-expert-duties
             priorities
@@ -274,19 +269,10 @@ rec {
           definitions = documentation-definitions;
           terms = role-terms;
         };
-      contributor = { name, address, amount }:
+      contributor = { name, address, hours, rate }:
         let
           role = "Contributor";
-          compensation = { role }: terms.total-amount { inherit role amount; };
-          documentation-definitions = with definitions; with documentation.definitions; [
-            nix
-            nixos-foundation
-            project
-            editorial-lead
-            nix-expert
-            contributor
-            project-organiser
-          ];
+          compensation = { role }: terms.hours-and-rate { inherit role hours rate; };
           role-terms = with terms; with documentation.terms; map (t: t { inherit role; }) [
             contributor-duties
             time-frame
@@ -304,8 +290,29 @@ rec {
           definitions = documentation-definitions;
           terms = role-terms;
         };
+      volunteer = { name, address, amount }:
+        let
+          role = "Volunteer";
+          compensation = { role }: terms.total-amount { inherit role amount; };
+          role-terms = with terms; with documentation.terms; map (t: t { inherit role; }) [
+            volunteer-duties
+            time-frame
+            reporting-assistance
+            license
+            code-of-conduct
+            compensation
+            no-claims
+            terms.bulk-invoicing
+            payment-duties
+            availability
+          ];
+        in contract {
+          contractor = { inherit name address role; };
+          definitions = documentation-definitions;
+          terms = role-terms;
+        };
       };
-  };
+    };
 
   # definitions and contract terms specific to Summer of Nix
   summer-of-nix = {
