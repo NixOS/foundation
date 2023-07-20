@@ -13,6 +13,8 @@ body:
         Fill in this form to get funding approved for your event.
 
         Make sure to read <https://nixos.org/community/event-funding.html> before filling the form.
+
+        We ask to publish a picture of the group on social media to spread the word about Nix.
   - type: input
     id: event-name
     attributes:
