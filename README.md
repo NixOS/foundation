@@ -1,14 +1,7 @@
 # NixOS Foundation
 
-The NixOS Foundation's role is to support the infrastructure and development of
-the NixOS project as a whole. The exact nature and scope of this might vary
-over time.
-
-## Current scope
-
-* Maintain the core infrastructure (Hydra, binary cache, ...)
-* Pay for projects that improve the open source nixos ecosystem (security patching, a designer, etc.) but not do private work
-* Hold various properties related to the project (Internet domains, ...)
+The NixOS Foundation's role is to support the infrastructure and development of the NixOS project as a whole.
+The exact nature and scope of this might vary over time and are described in the [role and responsibilities](./role_and_responsibilities.md) document.
 
 ## About the foundation
 
@@ -31,7 +24,6 @@ and participate in the board decision making process, but don't have any
 voting powers.
 
 * Jonas Chevalier (@zimbatm)
-
 
 ## Contact us
 
