@@ -16,14 +16,14 @@ over decisions of the board.
 * Ron Efroni (@refroni, Treasurer)
 * Théophane Hufschmitt (@thufschmitt, Secretary)
 * Domen Kozar (@domenkozar, Member)
+* Jonas Chevalier (@zimbatm)
 
 ### Board observers
 
-Here is the current list of board observers. Board observers are here to help
-and participate in the board decision making process, but don't have any
-voting powers.
+There are currently no board observers.
 
-* Jonas Chevalier (@zimbatm)
+Board observers are here to help and participate in the board decision making
+process, but don't have any voting powers.
 
 ## Contact us
 
