@@ -156,7 +156,7 @@ rec {
       The **NixOS Foundation** will transfer payment within 30 calendar days after receiving an invoice.
     '';
     availability = { role }: ''
-      If **${role}** is unable to keep to the agreed-upon schedule, or become temporarily or permantly unavailable for the purposes of this agreement, they will notify the **Project Organiser** immediately.
+      If **${role}** is unable to keep to the agreed-upon schedule, or become temporarily or permanently unavailable for the purposes of this agreement, they will notify the **Project Organiser** immediately.
 
       In such a situation, **NixOS Foundation** has the right to suspend or terminate the contract.
       **NixOS Foundation** will inform **${role}** one week (seven days) in advance of its intent to suspend or terminate the contract.
