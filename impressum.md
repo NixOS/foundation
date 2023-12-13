@@ -2,8 +2,6 @@
 
 **Stichting NixOS Foundation**
 
-Hogeweide 346, 3544PW Utrecht, The Netherlands
-
 **Email:** [foundation@nixos.org](mailto:foundation@nixos.org)
 
 ## Commercial register entry
