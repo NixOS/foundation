@@ -49,3 +49,9 @@ In particular, its responsibilities are to:
   - Backup for critical tasks when needed
 
 The board is not responsible for technical leadership, decisions or direction.
+
+<!--
+NOTE: this information is currently duplicated on
+https://github.com/NixOS/nixos-homepage/blob/master/community/teams/foundation-board.tt
+please try to keep it in sync until there is automation in place
+-->
