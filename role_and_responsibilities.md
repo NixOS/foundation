@@ -38,6 +38,8 @@ In particular, its responsibilities are to:
 - Handle the administrative, legal, and financial tasks of the foundation
 - Serve as an interface between the community and the corporate/governmental world:
   - Handle sponsoring and donations
+  - Encourage contributions by individuals and organisations alike
+  - Balance the interests of volunteers, commercial actors, and public institutions
   - Build and maintain beneficial and collaborative relationships
 - Provide a framework for teams to self-organise:
   - Hand out the credentials and permissions required for the teams' work
