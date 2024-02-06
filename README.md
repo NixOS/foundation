@@ -20,7 +20,7 @@ over decisions of the board.
 
 ### Board observers
 
-There are currently no board observers.
+* Ryan Lahfa (@raitobezarius)
 
 Board observers are here to help and participate in the board decision making
 process, but don't have any voting powers.
