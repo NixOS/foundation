@@ -2,46 +2,16 @@
   Contract templates for the NixOS Foundation
 
   Use this to create PDFs for contracts with pre-defined terms.
-
-  Example:
-
-  Run `nix-build contract.nix -A 2024-01 -o 2024-01.pdf` on the following file.
-
-  ```nix
-  # contract.nix
-  let
-    contract = import ./default.nix;
-    foundation = {
-      representative = "Jan Jansen";
-      address = ''
-        Lorem 123
-        45678 Ipsum
-        Dolor Sit
-      '';
-    };
-    toPDF = number: parameters:
-    contract.pdf "${number}.pdf" (parameters { inherit number foundation; });
-  in
-  mapAttrs toPDF {
-    "2023-01" = contract.summer-of-nix.roles.participant {
-      name = "John Default";
-      address = ''
-        Fakestreet 123
-        Springfield
-        USA
-      '';
-      amount = 3000;
-    };
-  }
-  ```
 */
 
 let
   inherit (import ./utils.nix) ul ol splitLines;
   inherit (builtins) map concatStringsSep;
-  pkgs = import (fetchTarball https://github.com/NixOS/nixpkgs/tarball/release-22.05) { };
+  pkgs = import (fetchTarball https://github.com/NixOS/nixpkgs/tarball/nixos-23.11) { };
 in
 rec {
+  toPDF = foundation: number: parameters:
+    pdf "${number}.pdf" (parameters { inherit number foundation; });
   pdf = name: contract: pkgs.runCommand name
     {
       buildInputs = with pkgs; [ pandoc texlive.combined.scheme-small ];
@@ -107,12 +77,8 @@ rec {
 
   # generic contract terms
   terms = {
-    compensation = { role, compensation }:
+    compensation = { role, ... }@args:
       let
-        args =
-          if compensation ? currency
-          then { inherit role; inherit (compensation) currency; }
-          else { inherit role; };
         hours-and-rate = { role, hours, rate, currency ? "EUR" }: ''
           **${role}** will work a total of ${toString hours} hours for the purposes of this agreement, for an hourly rate of ${toString rate} ${currency}.
         '';
@@ -120,19 +86,17 @@ rec {
           **${role}** will receive a total of ${toString amount} ${currency} as compensation.
         '';
       in
-      if compensation ? amount
-      then total-amount ({ inherit (compensation) amount; } // args)
-      else hours-and-rate ({ inherit (compensation) hours rate; } // args);
+      if args ? amount then total-amount args else hours-and-rate args;
     time-frame = { role, time-frame }: ''
       **${role}** will perform the agreed-upon work within the **time frame ${time-frame}**.
     '';
     priorities = { role, supervisor }: ''
       The **${supervisor}**, designated by **NixOS Foundation**, will communicate goals and priorities of this engagement to **${role}**, and support them in administrative issues.
     '';
-    progress-reviews = { role, interval ? "weekly", supervisor }: ''
+    progress-reviews = { role, supervisor, interval }: ''
       **${role}** and **${supervisor}** will ${interval} review progress, and adjust priorities as needed.
     '';
-    written-summaries = { role, interval ? "weekly" }: ''
+    written-summaries = { role, interval }: ''
       **${role}** will ${interval} provide a brief written overview of work done, for the purpose of **NixOS Foundation** reporting to financiers and the general public.
     '';
     license = { role }: ''
@@ -165,6 +129,9 @@ rec {
     invoiced-amount = _: ''
       The agreed-upon compensation is the total amount to be invoiced.
       If VAT is reverse charged, the invoiced amount must be reduced accordingly.
+    '';
+    no-subcontracting = _: ''
+      Subcontracting the agreed-upon work is explicitly prohibited.
     '';
     payment-duties = { role }: ''
       The **NixOS Foundation** will transfer payment within 30 calendar days after receiving an invoice.
