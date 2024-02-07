@@ -110,12 +110,22 @@ rec {
 
   # generic contract terms
   terms = {
-    hours-and-rate = { role, hours, rate }: ''
-      **${role}** will work a total of ${toString hours} hours for the purposes of this agreement, for an hourly rate of ${toString rate} EUR.
-    '';
-    total-amount = { role, amount }: ''
-      **${role}** will receive a total of ${toString amount} EUR as compensation.
-    '';
+    compensation = { role, compensation }:
+      let
+        args =
+          if compensation ? currency
+          then { inherit role; inherit (compensation) currency; }
+          else { inherit role; };
+        hours-and-rate = { role, hours, rate, currency ? "EUR" }: ''
+          **${role}** will work a total of ${toString hours} hours for the purposes of this agreement, for an hourly rate of ${toString rate} ${currency}.
+        '';
+        total-amount = { role, amount, currency ? "EUR" }: ''
+          **${role}** will receive a total of ${toString amount} ${currency} as compensation.
+        '';
+      in
+      if compensation ? amount
+      then total-amount ({ inherit (compensation) amount; } // args)
+      else hours-and-rate ({ inherit (compensation) hours rate; } // args);
     time-frame = { role, time-frame }: ''
       **${role}** will perform the agreed-upon work within the **time frame ${time-frame}**.
     '';
