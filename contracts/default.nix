@@ -103,9 +103,6 @@ rec {
     nixos-foundation = ''
       The **NixOS Foundation** is a not-for-profit organisation representing the community of developers in the Nix ecosystem and curating their commons.
     '';
-    project-organiser = ''
-      A **Project Organiser** is a representative of **NixOS Foundation** authorised to set goals and priorities for contractors within the scope of their engagement.
-    '';
   };
 
   # generic contract terms
@@ -129,11 +126,11 @@ rec {
     time-frame = { role, time-frame }: ''
       **${role}** will perform the agreed-upon work within the **time frame ${time-frame}**.
     '';
-    priorities = { role }: ''
-      A **Project Organiser**, designated by **NixOS Foundation**, will communicate goals and priorities of this engagement to **${role}**, and support them in administrative issues.
+    priorities = { role, supervisor }: ''
+      The **${supervisor}**, designated by **NixOS Foundation**, will communicate goals and priorities of this engagement to **${role}**, and support them in administrative issues.
     '';
-    progress-reviews = { role, interval ? "weekly" }: ''
-      **${role}** and **Project Organiser** will ${interval} review progress, and adjust priorities as needed.
+    progress-reviews = { role, interval ? "weekly", supervisor }: ''
+      **${role}** and **${supervisor}** will ${interval} review progress, and adjust priorities as needed.
     '';
     written-summaries = { role, interval ? "weekly" }: ''
       **${role}** will ${interval} provide a brief written overview of work done, for the purpose of **NixOS Foundation** reporting to financiers and the general public.
@@ -172,8 +169,8 @@ rec {
     payment-duties = { role }: ''
       The **NixOS Foundation** will transfer payment within 30 calendar days after receiving an invoice.
     '';
-    availability = { role }: ''
-      If **${role}** is unable to keep to the agreed-upon schedule, or become temporarily or permanently unavailable for the purposes of this agreement, they will notify the **Project Organiser** immediately.
+    availability = { role, supervisor }: ''
+      If **${role}** is unable to keep to the agreed-upon schedule, or become temporarily or permanently unavailable for the purposes of this agreement, they will notify the **${supervisor}** immediately.
 
       In such a situation, **NixOS Foundation** has the right to suspend or terminate the contract.
       **NixOS Foundation** will inform **${role}** one week (seven days) in advance of its intent to suspend or terminate the contract.
