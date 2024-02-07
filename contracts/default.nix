@@ -110,7 +110,7 @@ rec {
   # generic contract terms
   terms = {
     hours-and-rate = { role, hours, rate }: ''
-      **${role}** will work a total of ${toString hours} hours for **NixOS Foundation**, for an hourly rate of ${toString rate} EUR.
+      **${role}** will work a total of ${toString hours} hours for the purposes of this agreement, for an hourly rate of ${toString rate} EUR.
     '';
     total-amount = { role, amount }: ''
       **${role}** will receive a total of ${toString amount} EUR as compensation.
@@ -121,28 +121,34 @@ rec {
     priorities = { role }: ''
       A **Project Organiser**, designated by **NixOS Foundation**, will communicate goals and priorities of this engagement to **${role}**, and support them in administrative issues.
     '';
-    progress-reviews = { role }: ''
-      **${role}** and **Project Organiser** will weekly review progress, and adjust priorities as needed.
+    progress-reviews = { role, interval ? "weekly" }: ''
+      **${role}** and **Project Organiser** will ${interval} review progress, and adjust priorities as needed.
     '';
-    written-summaries = { role }: ''
-      **${role}** will weekly provide a brief written overview of work done, for the purpose of **NixOS Foundation** reporting to financiers and the general public.
+    written-summaries = { role, interval ? "weekly" }: ''
+      **${role}** will ${interval} provide a brief written overview of work done, for the purpose of **NixOS Foundation** reporting to financiers and the general public.
     '';
     license = { role }: ''
       **${role}** will submit the results of their work to the public benefit under a free and open source software license.
+    '';
+    privacy = { role }: ''
+      Due to the nature of this project's collaboration model, **${role}**'s work results, including contributions to discussion, will appear in publicly accessible places on the internet, such as GitHub, and remain there indefinitely.
+      This has potential for revealing personally-identifiable information apart from the self-chosen user name, such as times of activity, writing style, etc.
+
+      **${role}** is free to create an internet pseudonym for the purposes of this engagement in order to limit exposure.
     '';
     code-of-conduct = { role }: ''
       **${role}** will adhere to the most recently published version of the ACM Code of Conduct during any activities related to this engagement.
       If and where the Code of Conduct is in contradiction with one or more statements in the text of this agreement, the agreement will prevail.
     '';
     public-statements = { role, optional ? true }: ''
-      **NixOS Foundation** and **${role}** may issue one or more individual or joint public statements regarding this agreement or work results. ${if optional then ''
-    This is optional and requires explicit agreement by **${role}**.
-    '' else ""}'';
+      **NixOS Foundation** and **${role}** may issue one or more individual or joint public statements regarding this agreement or work results.
+      ${if optional then "This is optional and requires explicit agreement by **${role}**." else ""}
+    '';
     no-claims = { role }: ''
       Outside of this agreed-upon scope, there cannot be any financial claims towards either **NixOS Foundation** or **${role}**, unless previously mutually agreed in writing.
     '';
     taxes = { role }: ''
-      **${role}** understands that they are not employed by the **NixOS Foundation** and they have the sole responsibility to follow legal obligations with regard to this agreement according to their jurisdiction, such as taxes, social security, reporting, etc.
+      **${role}** understands that they are not employed by the **NixOS Foundation**, and that they have the sole responsibility to follow legal obligations with regard to this agreement according to their jurisdiction, such as taxes, social security, reporting, etc.
     '';
     invoicing = { role }: ''
       **${role}** will submit monthly invoices to **NixOS Foundation**, detailing the effort by the hour.
