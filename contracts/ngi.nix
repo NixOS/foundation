@@ -1,37 +1,37 @@
 /*
-Contract templates for Summer of Nix
+  Contract templates for NGI / Summer of Nix
 
-Example:
+  Example:
 
-Run `nix-build contrat.nix -A 2023-01 -o 2023-01.pdf` on the following file.
+  Run `nix-build contract.nix -A 2024-01 -o 2024-01.pdf` on the following file.
 
-```nix
-# contract.nix
-let
-  contract = import ./summer-of.nix;
-  foundation = {
-    representative = "Jan Jansen";
-    address = ''
-      Lorem 123
-      45678 Ipsum
-      Dolor Sit
-    '';
-  };
-  toPDF = number: parameters:
+  ```nix
+  # contract.nix
+  let
+    contract = import ./ngi.nix;
+    foundation = {
+      representative = "Jan Jansen";
+      address = ''
+        Lorem 123
+        45678 Ipsum
+        Dolor Sit
+      '';
+    };
+    toPDF = number: parameters:
     contract.pdf "${number}.pdf" (parameters { inherit number foundation; });
-in
-mapAttrs toPDF {
-  "2023-01" = contract.participant {
-    name = "John Default";
-    address = ''
-      Fakestreet 123
-      Springfield
-      USA
-    '';
-    amount = 3000;
-  };
-}
-```
+  in
+  mapAttrs toPDF {
+    "2023-01" = contract.participant {
+      name = "John Default";
+      address = ''
+          Fakestreet 123
+          Springfield
+          USA
+      '';
+      amount = 3000;
+    };
+  }
+  ```
 */
 let
   contracts = import ./.;
@@ -78,6 +78,9 @@ let
 
       **${role}** will collaborate on regularly providing brief written overviews of their mob's work results for the purpose of the **NixOS Foundation** reporting to financiers and the general public.
     '';
+    technical-means = { role }: ''
+      **${role}** is responsible to ensure that the technical means required for their effective participation in mob programming sessions are available and operational.
+    '';
     developer-duties = { role }: ''
       **${role}** assumes the moral and operational responsibility for the software projects they engage with.
       For the duration of this engagement, **${role}** is said to be a maintainer for these projects.
@@ -120,9 +123,6 @@ let
     subcontracting = _: ''
       Subcontracting the agreed-upon work is explicitly prohibited.
     '';
-    technical-means = { role }: ''
-      **${role}** is responsible to ensure that the technical means required for their effective participation in mob programming sessions are available and operational.
-    '';
     acknowledgement = { role }: ''
       **${role}** is encouraged to publicly acknowledge the **NixOS Foundation**'s and European Commission's support and contribution where possible.
       For example: on websites, in promotional materials or presentations, and in source code.
@@ -141,20 +141,23 @@ let
       facilitator
       project-organiser
     ];
-in {
+in
+{
   # pass through the underlying rendering mechanism
   inherit (contracts) pdf;
 
   participant = { name, address, amount }:
     let
       role = "Participant";
-      compensation = let
-        total-amount = contracts.terms.total-amount { inherit role amount; };
-        time-frame = terms.time-frame { inherit role; };
-      in [
-        total-amount
-        time-frame
-      ];
+      compensation =
+        let
+          total-amount = contracts.terms.total-amount { inherit role amount; };
+          time-frame = terms.time-frame { inherit role; };
+        in
+        [
+          total-amount
+          time-frame
+        ];
       role-terms = with contracts.terms; with terms; map (t: t { inherit role; }) [
         purpose
         participant-duties
@@ -173,7 +176,8 @@ in {
         public-statements
         acknowledgement
       ];
-    in contracts.contract {
+    in
+    contracts.contract {
       contractor = { inherit name address role; };
       definitions = summer-of-nix-definitions;
       terms = role-terms;
@@ -183,13 +187,15 @@ in {
   facilitator = { name, address, amount }:
     let
       role = "Facilitator";
-      compensation = let
-        total-amount = contracts.terms.total-amount { inherit role amount; };
-        time-frame = terms.time-frame { inherit role; };
-      in [
-        total-amount
-        time-frame
-      ];
+      compensation =
+        let
+          total-amount = contracts.terms.total-amount { inherit role amount; };
+          time-frame = terms.time-frame { inherit role; };
+        in
+        [
+          total-amount
+          time-frame
+        ];
       role-terms = with contracts.terms; with terms; map (t: t { inherit role; }) [
         purpose
         facilitator-duties
@@ -210,7 +216,8 @@ in {
         public-statements
         acknowledgement
       ];
-    in contracts.contract {
+    in
+    contracts.contract {
       contractor = { inherit name address role; };
       definitions = summer-of-nix-definitions;
       terms = role-terms;
@@ -220,13 +227,15 @@ in {
   developer = { name, address, hours, rate }:
     let
       role = "Developer";
-      compensation = let
-        hours-and-rate = contracts.terms.hours-and-rate { inherit role hours rate; };
-        time-frame = terms.time-frame { inherit role; };
-      in [
-        hours-and-rate
-        time-frame
-      ];
+      compensation =
+        let
+          hours-and-rate = contracts.terms.hours-and-rate { inherit role hours rate; };
+          time-frame = terms.time-frame { inherit role; };
+        in
+        [
+          hours-and-rate
+          time-frame
+        ];
       ngi-definitions = with contracts.definitions; with definitions; [
         nix
         nixos-foundation
@@ -253,7 +262,8 @@ in {
         public-statements
         acknowledgement
       ];
-    in contracts.contract {
+    in
+    contracts.contract {
       contractor = { inherit name address role; };
       definitions = ngi-definitions;
       terms = role-terms;
@@ -263,10 +273,12 @@ in {
   organiser = { name, address, hours, rate }:
     let
       role = "Project Organiser";
-      compensation = let
+      compensation =
+        let
           hours-and-rate = contracts.terms.hours-and-rate { inherit role hours rate; };
           time-frame = terms.time-frame { inherit role; };
-        in [
+        in
+        [
           hours-and-rate
           time-frame
         ];
@@ -284,7 +296,8 @@ in {
         public-statements
         acknowledgement
       ];
-    in contracts.contract {
+    in
+    contracts.contract {
       contractor = { inherit name address role; };
       definitions = summer-of-nix-definitions;
       terms = role-terms;

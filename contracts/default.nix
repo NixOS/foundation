@@ -1,50 +1,51 @@
 /*
-Contract templates for the NixOS Foundation
+  Contract templates for the NixOS Foundation
 
-Use this to create PDFs for contracts with pre-defined terms.
+  Use this to create PDFs for contracts with pre-defined terms.
 
-Example:
+  Example:
 
-Run `nix-build contract.nix -A 2023-01 -o 2023-01.pdf` on the following file.
+  Run `nix-build contract.nix -A 2024-01 -o 2024-01.pdf` on the following file.
 
-```nix
-# contract.nix
-let
-  contract = import ./default.nix;
-  foundation = {
-    representative = "Jan Jansen";
-    address = ''
-      Lorem 123
-      45678 Ipsum
-      Dolor Sit
-    '';
-  };
-  toPDF = number: parameters:
+  ```nix
+  # contract.nix
+  let
+    contract = import ./default.nix;
+    foundation = {
+      representative = "Jan Jansen";
+      address = ''
+        Lorem 123
+        45678 Ipsum
+        Dolor Sit
+      '';
+    };
+    toPDF = number: parameters:
     contract.pdf "${number}.pdf" (parameters { inherit number foundation; });
-in
-mapAttrs toPDF {
-  "2023-01" = contract.summer-of-nix.roles.participant {
-    name = "John Default";
-    address = ''
-      Fakestreet 123
-      Springfield
-      USA
-    '';
-    amount = 3000;
-  };
-}
-```
+  in
+  mapAttrs toPDF {
+    "2023-01" = contract.summer-of-nix.roles.participant {
+      name = "John Default";
+      address = ''
+        Fakestreet 123
+        Springfield
+        USA
+      '';
+      amount = 3000;
+    };
+  }
+  ```
 */
 
 let
   inherit (import ./utils.nix) ul ol splitLines;
   inherit (builtins) map concatStringsSep;
-  pkgs = import (fetchTarball https://github.com/NixOS/nixpkgs/tarball/release-22.05) {};
+  pkgs = import (fetchTarball https://github.com/NixOS/nixpkgs/tarball/release-22.05) { };
 in
 rec {
-  pdf = name: contract: pkgs.runCommand name {
-    buildInputs = with pkgs; [ pandoc texlive.combined.scheme-small ];
-  } "cat ${builtins.toFile "contract" "${contract}"} | pandoc -t pdf > $out";
+  pdf = name: contract: pkgs.runCommand name
+    {
+      buildInputs = with pkgs; [ pandoc texlive.combined.scheme-small ];
+    } "cat ${builtins.toFile "contract" "${contract}"} | pandoc -t pdf > $out";
 
   contract = { contractor, definitions, terms, compensation }: { number, foundation }: ''
     # Contract
