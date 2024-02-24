@@ -25,6 +25,14 @@ over decisions of the board.
 Board observers are here to help and participate in the board decision making
 process, but don't have any voting powers.
 
+### Board affiliation transparency
+
+* Eelco Dolstra is Founder / Secretary of the Board of Determinate Systems
+* Ron Efroni is Founder / Chief Executive Officer of Flox
+* Théophane Hufschmitt is employed by Tweag / Modus Create
+* Domen Kozar is Founder / Director of Cachix
+* Jonas Chevalier is Founder / Director of Numtide
+
 ## Contact us
 
 In order to bring items to our attention, you have the following mechanisms
