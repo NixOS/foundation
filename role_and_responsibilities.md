@@ -31,19 +31,27 @@ These responsibilities are carried out by the different teams that form the comm
 
 _Empower the community and stay out of the way_
 
-The role of the board is to provide operational and organizational support to the NixOS project and community.
+The role of the board is to provide operational and organisational support to the NixOS project and community.
 
 In particular, its responsibilities are to:
 
-- Handle the administrative, legal and financial tasks of the Foundation
-- Serve as an interface between the community and the corporate/governmental world
+- Handle the administrative, legal, and financial tasks of the foundation
+- Serve as an interface between the community and the corporate/governmental world:
   - Handle sponsoring and donations
+  - Encourage contributions by individuals and organisations alike
+  - Balance the interests of volunteers, commercial actors, and public institutions
   - Build and maintain beneficial and collaborative relationships
-- Provide a framework for teams to self-organise
-  - Hand out the credentials and permissions as needed by the teams work
+- Provide a framework for teams to self-organise:
+  - Hand out the credentials and permissions required for the teams' work
 - Fund community events and efforts
-- Unblock things that would be stuck otherwise
+- Unblock things that would be stuck otherwise, and serve as:
   - Arbiter in case of conflicts
-  - Serve as a backup for critical tasks when needed
+  - Backup for critical tasks when needed
 
 The board is not responsible for technical leadership, decisions or direction.
+
+<!--
+NOTE: this information is currently duplicated on
+https://github.com/NixOS/nixos-homepage/blob/master/community/teams/foundation-board.tt
+please try to keep it in sync until there is automation in place
+-->
