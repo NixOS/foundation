@@ -15,7 +15,6 @@ over decisions of the board.
 * Eelco Dolstra (@edolstra, Chairman)
 * Ron Efroni (@refroni, Treasurer)
 * Théophane Hufschmitt (@thufschmitt, Secretary)
-* Domen Kozar (@domenkozar, Member)
 * Jonas Chevalier (@zimbatm)
 
 ### Board observers
@@ -30,7 +29,6 @@ process, but don't have any voting powers.
 * Eelco Dolstra is Founder / Secretary of the Board of Determinate Systems
 * Ron Efroni is Founder / Chief Executive Officer of Flox
 * Théophane Hufschmitt is employed by Tweag / Modus Create
-* Domen Kozar is Founder / Director of Cachix
 * Jonas Chevalier is Founder / Director of Numtide
 
 ## Contact us
