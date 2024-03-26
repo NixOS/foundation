@@ -20,6 +20,7 @@ over decisions of the board.
 ### Board observers
 
 * Ryan Lahfa (@raitobezarius)
+* Janik Haag (@Janik-Haag)
 
 Board observers are here to help and participate in the board decision making
 process, but don't have any voting powers.
