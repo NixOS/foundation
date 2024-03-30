@@ -18,7 +18,7 @@ The list of rules may be expanded or modified in the future as necessary to refl
 
 4. Procedures
 
-    1. The Sponsor Chair will submit sponsorship proposals to the Selection Committee via email, including the event organizers and the Foundation Board.
+    1. The Sponsor Chair will submit sponsorship proposals to the Selection Committee via email, composed of the event organizers and the Foundation Board.
 
     2. Selection Committee members shall be notified at least 2 weeks prior to the event and provided with at least 1 week to submit objections to the Foundation Board via email.
 
