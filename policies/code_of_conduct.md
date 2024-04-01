@@ -6,7 +6,8 @@ The NixOS Foundation is committed to serving the needs of the community and achi
 
 Scope:
 
-This code of conduct applies to all board members of the NixOS Foundation.
+This code of conduct applies to all board members of the NixOS Foundation and
+is on top of the project wide [Code of Conduct](https://github.com/NixOS/.github/blob/master/CODE_OF_CONDUCT.md)
 
 Policy:
 
