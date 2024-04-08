@@ -29,7 +29,7 @@ let
   compensation =
     let
       money = contracts.terms.compensation { inherit role amount; };
-      time = contracts.time-frame { inherit role; time-frame = "from 2024-06-01 to 2024-10-31"; };
+      time = contracts.terms.time-frame { inherit role; time-frame = "from 2024-05-01 to 2024-09-30"; };
     in
     [ money time ];
   terms =

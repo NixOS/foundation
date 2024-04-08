@@ -1,6 +1,6 @@
 let
   ngi = import ./.;
-  inherit (ngi) pdf;
+  inherit (ngi) contracts;
 in
 
 { name, address, hours, rate, time-frame }:
@@ -27,7 +27,7 @@ let
   compensation =
     let
       money = contracts.terms.compensation { inherit role hours rate; };
-      time = contracts.terms-time-frame { inherit role time-frame; };
+      time = contracts.terms.time-frame { inherit role time-frame; };
     in
     [ money time ];
   terms =
@@ -35,11 +35,11 @@ let
       generic = contracts.terms;
     in
     map (t: t { inherit role; }) [
-      ngi.purpose
+      ngi.terms.purpose
       duties
       priorities
       progress-reviews
-      ngi.time-sheets
+      ngi.terms.time-sheets
       generic.invoicing
       generic.invoiced-amount
       generic.payment-duties

@@ -3,7 +3,7 @@ let
   inherit (ngi) contracts;
 in
 
-{ name, address, hours, rate, time-frame }:
+{ name, address, amount, time-frame }:
 let
   role = "Project Organiser";
   duties = { role }: ''
@@ -29,8 +29,8 @@ let
   };
   compensation =
     let
-      money = contracts.terms.compensation { inherit role hours rate; };
-      time = contracts.time-frame { inherit role time-frame; };
+      money = contracts.terms.compensation { inherit role amount; };
+      time = contracts.terms.time-frame { inherit role time-frame; };
     in
     [ money time ];
   terms =
