@@ -2,7 +2,6 @@
 
 1. Purpose:
 This policy aims to facilitate clear, prompt, and equitable determinations of proposed sponsorships without necessitating extensive debate or uncertainty.
-Nonetheless, the Foundation retains the right to decline sponsorship through a Board vote in cases where it would impede the Foundation's mission.
 
 2. Scope:
 This policy applies to all sponsorships at official NixCon events.
