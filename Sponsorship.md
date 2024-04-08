@@ -30,4 +30,4 @@ The following rules may be subject to expansion or modification in the future to
     3. Objections must be specific to the sponsor and cite pertinent reasons why the sponsorship would impede the NixOS mission.
 
     4. In the event of an impasse during deliberation, objections shall be put to a vote.
-    A sponsor shall be accepted if a substantial majority of the committee votes in favor of acceptance.
+    A sponsor will be accepted if a significant majority, defined as greater than 70% of the committee votes, is in favor of acceptance.
