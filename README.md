@@ -5,7 +5,7 @@ The exact nature and scope of this might vary over time and are described in the
 
 ## About the foundation
 
-The "Stiching NixOS Foundation" is a registered non-profit organisation at the Chamber of commerce (Kamer van Koophandel) in Utrecht, The Netherlands. The KvK number is 63520583. 
+The "Stichting NixOS Foundation" is a registered non-profit organisation at the Chamber of commerce (Kamer van Koophandel) in Utrecht, The Netherlands. The KvK number is 63520583. 
 
 ### Board members
 
