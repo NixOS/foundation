@@ -12,7 +12,7 @@ The following rules may be subject to expansion or modification in the future to
     2. Sponsorship links, materials, and content must be suitable for minors and work environments and should align with the Foundation's mission.
     3. Event organizers retain the authority to establish additional regulations for event sponsorships, such as enforcing a thematic focus or stipulating specific local affiliations.
 4. Composition of the Selection Committee:
-    - 2 representatives from the event organizers, or 1 from the event organizer and 1 from the NixCon PL team, if involved
+    - 2 representatives from the event organizers, or 1 from the event organizer and 1 from the NixCon Project Lead team, if involved
     - 1 representative from the Foundation Board
     - 1 representative from the Moderation team
     - 1 representative from the Marketing team
