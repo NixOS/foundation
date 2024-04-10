@@ -32,6 +32,10 @@ process, but don't have any voting powers.
 * Théophane Hufschmitt is employed by Tweag / Modus Create
 * Jonas Chevalier is Founder / Director of Numtide
 
+## Policies
+
+* [Event Sponsorship Policy](./policies/sponsorship_policy.md)
+
 ## Contact us
 
 In order to bring items to our attention, you have the following mechanisms
