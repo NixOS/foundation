@@ -32,6 +32,14 @@ process, but don't have any voting powers.
 * Théophane Hufschmitt is employed by Tweag / Modus Create
 * Jonas Chevalier is Founder / Director of Numtide
 
+### The NixOS Foundation by-laws
+
+These are the official by-laws:
+- the [Dutch version](./by-laws/Oprichtingsakte_NixOsFoundation.nl.pdf) is the one filed with the Kamer Van Koophandel (KvK) and is the authoritative version
+- the [English version](./by-laws/Oprichtingsakte_NixOsFoundation.en.pdf) is a translation done by a lawyer
+
+Personal information that is not relevant to the reader is redacted.
+
 ## Policies
 
 * [Event Sponsorship Policy](./policies/sponsorship_policy.md)
