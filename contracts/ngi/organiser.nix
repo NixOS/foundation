@@ -10,9 +10,9 @@ let
     **${role}** is responsible for executing the organisational aspects of the **Summer of Nix** 2024 program, including in particular:
     - Issue a public call for applications
     - Process applications and select **Facilitators**
-    - Instruct **Facilitators** and **Participants** on mob pramming
+    - Support program participants with mob pramming
     - Help connect corporate sponsors and program graduates
-    - Assistist the **NGI project manager** with administrative tasks
+    - Assist the **NGI project manager** with administrative tasks
   '';
   priorities = { role }: contracts.terms.priorities {
     inherit role;
