@@ -3,13 +3,13 @@ let
   inherit (ngi) contracts;
 in
 
-{ name, address, amount }:
+{ name, address, amount, hours ? 160, time-frame ? "from 2024-05-01 to 2024-09-30", }:
 let
   role = "Facilitator";
   duties = { role }: ''
     **${role}** will take applications and assemble a team (a mob) of four **Participants** and themselves.
 
-    **${role}** will set up, schedule, and run 160 hours of mob programming sessions according to agreed-upon goals and priorities.
+    **${role}** will set up, schedule, and run ${toString hours} hours of mob programming sessions according to agreed-upon goals and priorities.
 
     **${role}** is responsible that their mob regularly provides brief written overviews of work done, for the purpose of the **NixOS Foundation** reporting to financiers and the general public.
   '';
@@ -29,7 +29,7 @@ let
   compensation =
     let
       money = contracts.terms.compensation { inherit role amount; };
-      time = contracts.terms.time-frame { inherit role; time-frame = "from 2024-05-01 to 2024-09-30"; };
+      time = contracts.terms.time-frame { inherit role time-frame; };
     in
     [ money time ];
   terms =
