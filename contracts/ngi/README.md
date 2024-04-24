@@ -6,6 +6,7 @@ Using these templates, create a file with contract parameters:
 # contracts.nix
 let
   ngi = import ./.;
+  participant = import ./participant.nix;
   foundation = {
     representative = "Jan Jansen";
     address = ''
@@ -15,7 +16,7 @@ let
     '';
   };
 in
-mapAttrs (ngi.contracts.toPDF foundation) {
+builtins.mapAttrs (ngi.contracts.toPDF foundation) {
   "2024-13" = contract.participant {
     name = "John Default";
     address = ''
