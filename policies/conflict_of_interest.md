@@ -11,7 +11,7 @@ Definition: For the purposes of this rule, a conflict of interest is any situati
 
 Guidelines:
 
-1. Disclosure of Conflicts of Interest: All members must disclose any conflicts of interest to the foundation's board of directors and the project's governance body as soon as they become aware of them.
+1. Disclosure of Conflicts of Interest: All members must disclose any conflicts of interest to the foundation's board of directors and the project's governance body as soon as they become aware of them. Compensation includes direct and indirect remuneration as well as gifts or favors that are not insubstantial (travel reimbursements are not considered compensation).
 
 2. Recusal: Members with a conflict of interest must recuse themselves from any decision-making process or vote related to the project where the conflict of interest exists. The recusal should be documented in the project's meeting minutes.
 
