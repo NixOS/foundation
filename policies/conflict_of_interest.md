@@ -19,5 +19,5 @@ Guidelines:
 
 4. Mitigation: Members with a conflict of interest may participate in discussions related to the project but must clearly disclose their conflicts of interest and refrain from advocating for their personal interests.
 
-5. Consequences: Failure to comply with this conflict of interest rule will result in disciplinary action, including but not limited to removal from the foundation's board of directors or governance body.
+5. Consequences: Failure to comply with this conflict of interest rule will result in disciplinary action, including but not limited to removal from the foundation's board of directors.
 
