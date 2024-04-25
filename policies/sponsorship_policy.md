@@ -8,9 +8,11 @@ This encompasses event sponsors as well as companies delivering talks, hosting b
 Additionally, this policy extends to sponsorship messages generated in the context of such an event in Nixpkgs itself and other official resources such as documentation and the homepage.
 3. Rules for Sponsors:
 The following rules may be subject to expansion or modification in the future to accurately reflect the prevailing decision-making process.
+The interpretation and enforcement of the rules is up to the Selection Commitee (see below).
     1. Sponsors must consist of individuals or entities legally capable of operating in accordance with the laws and policies of their jurisdiction, the NixOS Foundation, and pertinent third-party agreements.
     2. Sponsorship links, materials, and content must be suitable for minors and work environments and should align with the Foundation's mission.
     3. Event organizers retain the authority to establish additional regulations for event sponsorships, such as enforcing a thematic focus or stipulating specific local affiliations.
+    4. Companies that are heavily or primarily involved in military, defense, intelligence or weapons manufacturing are not suited for becoming a sponsor.
 4. Composition of the Selection Committee:
     - 2 representatives from the event organizers, or 1 from the event organizer and 1 from the NixCon Project Lead team, if involved
     - 1 representative from the Foundation Board
@@ -22,8 +24,9 @@ The following rules may be subject to expansion or modification in the future to
 5. Procedures:
     1. Event organizers shall submit sponsorship proposals to the Selection Committee via email.
     2. Selection Committee members shall receive notification at least 2 weeks prior to the event, with a minimum of 1 week provided for the submission of written objections to committee members.
-    3. Objections must be specific to the sponsor and cite pertinent reasons why the sponsorship would impede the NixOS mission.
-    4. In the event of an impasse during deliberation, objections shall be put to a vote.
+    3. The Selection Committee must make sure that all sponsors are suited according to the rules above.
+    4. Objections must be specific to the sponsor and cite pertinent reasons why the sponsorship would impede the NixOS mission.
+    5. In the event of an impasse during deliberation, objections shall be put to a vote.
     A sponsor will be accepted if and only if at least 4 members of the committee are in favor.
 6. Definitions:
     1. Official event: any large scale conference with financial ties with the foundation.
