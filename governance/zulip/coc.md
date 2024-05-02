@@ -22,7 +22,7 @@ We understand that not everybody has done this type of work before, or has the s
 
 Everyone is responsible for preventing and taking action against abusive behavior. We speak up when we see others engaging in negative behavior and bring in moderation as necessary to resolve problems.
 
-There are many types of abusive behavior, and it’s impossible to define them, but some are defined below to help level set. Ultimately, the Zulip moderation team decides what is acceptable and unacceptable conduct.
+There are many types of abusive behavior, and it’s impossible to list them exhaustively, but some are defined below to help level set. Ultimately, the Zulip moderation team decides what is acceptable and unacceptable conduct.
 
 ### Derogatory Language
 
