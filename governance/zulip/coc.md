@@ -2,11 +2,11 @@
 
 Open Source doesn't work without the people who make the software happen. The governance project is putting people first and doing its best to recognize, appreciate, and respect the diversity of our global contributor base. We welcome contributions from all qualified (through contribution or prior experience) people who want to contribute in a healthy and constructive manner.
 
-These guidelines aim to support bootstrapping our governance structure, and as such *all* who can, should feel safe to participate regardless of background, family status, gender, gender identity and expression, marital status, sex, sexual orientation, plurality, native language, age, race/ethnicity, nationality, socioeconomic status, geographic location, education, or other aspects of diversity.
+These guidelines aim to support bootstrapping our governance structure, and as such *all* who can, should feel safe to participate regardless of background, family status, gender, gender identity and expression, marital status, sex, sexual orientation, plurality, native language, age, race/ethnicity, nationality, socioeconomic status, geographic location, education, disability, otherkin status, or other aspects of diversity.
 
 ### We are respectful
 
-We value each others ideas and viewpoints. We are open to different possibilities and being wrong. We are aware of our *impact* and how interactions will affect others. We are direct, constructive, and positive. We take responsibility for our impact and our mistakes - if someone says that they have been harmed by our words or actions, we *stop*, *listen*, and then *apologize sincerely* and *change behavior.*
+We value each others ideas and viewpoints. We are open to different possibilities and being wrong. We are aware of our *impact* and how interactions will affect others. We communicate in a direct, constructive, and positive way. We take responsibility for our impact and our mistakes - if someone says that they have been harmed by our words or actions, we *stop*, *listen*, and then *apologize sincerely* and *change behavior.*
 
 ### We are inclusive
 
@@ -22,7 +22,7 @@ We understand that not everybody has done this type of work before, or has the s
 
 Everyone is responsible for preventing and taking action against abusive behavior. We speak up when we see others engaging in negative behavior and bring in moderation as necessary to resolve problems.
 
-There are many types of abusive behavior, and it’s impossible to list them exhaustively, but some are defined below to help level set. Ultimately, the Zulip moderation team decides what is acceptable and unacceptable conduct.
+There are many types of abusive behavior, and it’s impossible to list them exhaustively, but some are defined below to help level set. Ultimately, the "Nix community governance Zulip" moderation team decides what is acceptable and unacceptable conduct.
 
 ### Derogatory Language
 
