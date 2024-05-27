@@ -3,7 +3,7 @@ description: Form to get new events funded!
 title: "[Funding]: $event name $date"
 labels: ["funding-request", "triage"]
 assignees:
-  - zimbatm
+  - refroni
 body:
   - type: markdown
     attributes:
