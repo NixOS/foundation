@@ -55,7 +55,10 @@ body:
     id: budget-amount
     attributes:
       label: Budget amount
-      description: What is the budget you are seeking for (and what currency?)
+      description: |
+        What is the budget you are seeking for (and what currency?).
+        We can spare up to **€200 for a meetup and €800 for a sprint**.
+        But we're flexible, so exceptions are possible.
     validations:
       required: true
   - type: textarea
