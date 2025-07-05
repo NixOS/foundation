@@ -30,6 +30,12 @@ Personal information that is not relevant to the reader is redacted.
 
 * [Event Sponsorship Policy](./policies/sponsorship_policy.md)
 
+## Policies
+
+The NixOS Foundation board members adhere to the following policies:
+
+* [Code of Conduct](policies/code_of_conduct.md)
+
 ## Contact us
 
 In order to bring items to our attention, you have the following mechanisms
