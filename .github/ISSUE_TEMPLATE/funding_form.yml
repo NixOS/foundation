@@ -1,9 +1,9 @@
 name: Nix Event Funding form
 description: Form to get new events funded!
 title: "[Funding]: $event name $date"
-labels: ["funding-request", "triage"]
+labels: ["event-funding-request", "triage"]
 assignees:
-  - refroni
+  - lassulus
 body:
   - type: markdown
     attributes:
