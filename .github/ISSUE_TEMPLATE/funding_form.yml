@@ -14,7 +14,7 @@ body:
 
         Make sure to read <https://nixos.org/community/event-funding.html> before filling the form.
 
-        We ask to publish a witness of the event on social media (be it a group photo, a written report, slides, or anything) to spread the word about Nix.
+        We require that you upload an event photo or written report to be shared on official social media.
   - type: input
     id: event-name
     attributes:
