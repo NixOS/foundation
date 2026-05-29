@@ -2,22 +2,6 @@
 
 The NixOS Foundation is a legal entity serving as an interface between the Nix community and external matters, such a legals, financials, administration, partnerships and co. The NixOS Foundation is operated by the members of the NixOS Foundation _board_. See [the board page](https://nixos.org/community/teams/foundation-board/) for overall responsibilities and current members.
 
-## History
-
-Members:
-- Eelco Dolstra: June 2015 - May 2024
-- Armijn Hemel: June 2015 - Feb 2023
-- Robert Vermaas: June 2015 - Feb 2023
-- Théophane Hufschmitt: June 2022 - June 2024
-- Domen Kožar: June 2022 - March 2024
-- Jonas Chevalier: March 2024 - June 2024
-
-Observers:
-- Graham Christensen: June 2022 - May 2023
-- Jonas Chevalier: Feb 2023 - March 2024
-- Ryan Lahfa: Nov 2023 - Nov 2024
-- Janik Haag: March 2024 - July 2024
-
 ## The NixOS Foundation by-laws
 
 These are the official by-laws:
@@ -46,3 +30,21 @@ available:
 # Impressum
 
 [impressum](impressum.md)
+
+## History of past board members
+
+For current board members see [the website](https://nixos.org/community/teams/foundation-board/).
+
+Past board members:
+- Eelco Dolstra: June 2015 - May 2024
+- Armijn Hemel: June 2015 - Feb 2023
+- Robert Vermaas: June 2015 - Feb 2023
+- Théophane Hufschmitt: June 2022 - June 2024
+- Domen Kožar: June 2022 - March 2024
+- Jonas Chevalier: March 2024 - June 2024
+
+Past board observers:
+- Graham Christensen: June 2022 - May 2023
+- Jonas Chevalier: Feb 2023 - March 2024
+- Ryan Lahfa: Nov 2023 - Nov 2024
+- Janik Haag: March 2024 - July 2024
