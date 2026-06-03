@@ -10,6 +10,12 @@ These are the official by-laws:
 
 Personal information that is not relevant to the reader is redacted.
 
+### NixOS Foundation Purpose
+
+Taken from the by-laws:
+
+> Develop, propagate, and promote the adoption of a purely functional software deployment model and to support open-source projects that implement that model, as well as other activities that relate to, pertain to, and/or can be conducive to the foregoing in the broadest sense.
+
 ## Policies
 
 * [Event Sponsorship Policy](./policies/sponsorship_policy.md)
