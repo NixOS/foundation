@@ -18,7 +18,7 @@ Taken from the by-laws:
 
 ## Policies
 
-* [Event Sponsorship Policy](./policies/sponsorship_policy.md)
+See [policies](./policies)
 
 ## Contact us
 
